@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import EmpresaView from '../views/EmpresaView.vue'
 import ContainerView from '../views/ContainerView.vue'
+import MovimentacaoView from '../views/MovimentacaoView.vue'
 
 
 Vue.use(VueRouter)
@@ -25,6 +26,11 @@ const router = new VueRouter({
       path: '/container',
       name: 'container',
       component: ContainerView
+    },
+    {
+      path: '/movimentacao',
+      name: 'movimentacao',
+      component: MovimentacaoView
     }
   ]
 })

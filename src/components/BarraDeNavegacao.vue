@@ -7,7 +7,7 @@
             <div class="div-navegador">
                 <router-link to="/empresa" class="navegador">EMPRESA</router-link>
                 <router-link to="/container" class="navegador">CONTAINER</router-link>
-                <router-link to="/" class="navegador">MOVIMENTAÇÃO</router-link>
+                <router-link to="/movimentacao" class="navegador">MOVIMENTAÇÃO</router-link>
 
             </div>
         </nav>
